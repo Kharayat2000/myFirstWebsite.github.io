@@ -30,7 +30,7 @@
     margin-left: 50px;
 }
 .cover-img{
-    background: url(banner-1.jpg) center/cover no-repeat;
+    background: url(images/banner-1.jpg) center/cover no-repeat;
     height: 450px;
     width: 500px;
     padding: 50px 0 0 100px;
@@ -146,9 +146,10 @@
 }
 .fifth-section{
     background: linear-gradient(rgba(12, 12, 12, 0.856),rgba(0, 0, 0, 0.959)),
-                 url('back.jpg')center/cover no-repeat fixed;  
+                 url('images/back.jpg')center/cover no-repeat fixed;  
     height: 55vh;
-    margin:0 -145px 0 -55px;
+    width: 101vw;
+    margin:0 0px 0 -57px;
     text-align: center;    
 } 
 .fifth-section h2{
@@ -179,7 +180,7 @@
 }
 
 .footer{
-    width: 100vw;
+    width: 101vw;
     background-color: rgb(27, 27, 27);
     color: white;
     padding: 50px 125px;
@@ -246,32 +247,28 @@
     .fitness-tip{
         height: 340px;
     }
-    
-    .footer{
-    }
-    .fifth-section{
-        width:100vw;
-    }
     .fifth-section p{
         /*width: 13.0vw;*/
         font-size: 16px;
     }
     .fifth-section .fitness-tool{
-        padding: 0 0 0 170px;
+        padding: 0 0 0 110px;
     }
 }
 @media (max-width:1250px){
     .navbar{
         width: 103vw;
     }
-    .third-section{
-        margin-left:0px ;
-    }
-    .fifth-section .fitness-tool{
-        padding-left: 210px ;
-}
     .fifth-section{
+        width: 101.5vw ;
     }
+    .fifth-section h2{
+        margin-left: 520px;
+    }
+    .footer{
+        width:101.5vw;
+    }
+   
     
 }
 
@@ -303,15 +300,14 @@
         padding-left:80px;
     }
     .fifth-section{
-        width: 100vw;
-        margin:0 0 0 -55px;
-        align-items: center;
+        width: 100.5vw;
     }
     .fifth-section .fitness-tool{
-        padding-left:60px;
+        padding-left:80px;
     }
     .fifth-section h2{
-        margin-left: 510px;  
+        margin-top: 20px;
+        margin-left: 500px;  
       }
     .fifth-section img{
         align-items: center;
@@ -324,10 +320,13 @@
     .social-icon li{
          width: 2.9vw;
     }
+    .footer{
+        width:100.5vw;
+    }
 }
 @media(max-width:1150px){
     .navbar{
-        width: 103vw;
+        width: 102vw;
         font-size: 17px;
     }
     
@@ -337,16 +336,37 @@
     .third-section #exercise{
         font-size:25px ;
     }
+     .fifth-section h2{
+         margin: 0%;
+         padding:  20px 0 0 460px;
+     }
     .fifth-section .fitness-tool{
-        padding-left: 110px;
+        padding-left: 60px;
     }
+}
+@media(max-width:1100px){
+    .fifth-section h2{
+        padding-left: 440px;
+    }
+    .fifth-section .card img{
+        height: 140px;
+        width: 140px;
+    }
+    .fifth-section .fitness-tool{
+        margin-left: 10px;
+    }
+    .fitness-tool .card-title{
+        margin-top: 80px;
+        font-size: 14px;
+    }
+
 }
 @media(max-width:1050px){
     .third-section{
         margin-right: 100px;
     }
     .fitness-tip h1{
-        font-size: 30px;
+        font-size: 27px;
     }
     .third-section .fitness-tip .para{
         font-size: 15px;
@@ -355,7 +375,7 @@
         font-size: 14px;
     }
     .fifth-section .fitness-tool{
-        padding-left: 140px;
+        padding-left: 40px;
     }
     .navbar{
         font-size: 16px;
@@ -365,13 +385,16 @@
     }
 }
 @media(max-width:1000px){
-    
-    .fifth-section h2{
-        margin-left:550px ;
+    .fifth-section{
+        width: 101.7vw;
     }
-    .fifth-section .card img{
-        height: 150px;
-        width: 160px;
+    .fifth-section h2{
+        margin: 0px;
+        padding-left:400px ;
+        padding-top: 26px;
+    }
+    .fifth-section .fitness-tool{
+        padding-left: 20px
     }
     .footer{
         }
@@ -382,11 +405,9 @@
 
 @media (max-width:995px){
     .navbar{
-        width: 100vw;
+        width: 102vw;
         padding-left:120px;
         font-size: 15px;
-    }
-    .third-section .cover-img{
     }
     .hamburger-menu{
         height: 7vh;
@@ -423,19 +444,19 @@
         margin: 10px 10px 0 0px ;
     }
     .fifth-section{
-        width: 100vw;
-        margin-left:;
+        width: 102vw;
     }
-    .fifth-section .fitness-tool .card{
-        margin: 0 20px;
+    .fifth-section .fitness-tool{
+        padding-top: 1px;
+        padding-left: 50px;
     }
-    .fifth-section h2{
-        margin-left: 450px;
+    .fitness-tool .card-title{
+        font-size: 11px;
     }
-    .fifth-section img{
-        height: 150px;
-        width:150px ; 
-       }
+    .fifth-section .card img{
+        height: 130px;
+        width: 130px;
+    }
     .copyright{
         }
     .social-icon{
@@ -448,9 +469,9 @@
         width: 100vw;
     }
 }
-@media (max-width:905px){
+@media (max-width:935px){
     .navbar{
-        width: 100vw;
+        width: 102vw;
     }
     .social-icon li{
         width: 4vw;
@@ -458,23 +479,71 @@
     .fifth-section{
         width: 100vw;
     }
+    .fifth-section h2{
+        font-size: 27px;
+    }
+    .fifth-section .card img{
+        height: 120px;
+        width: 110px;
+    }
+    .fifth-section .fitness-tool .card-title{
+        margin-top: 60px;
+    }
+    .fifth-section  .fitness-tool{
+        padding: 50px;
+    }
+    .footer{
+      width:  100vw;
+    }
 }
 @media (max-width:850px){
     .navbar{
-        width:100vw;
+        width:104vw;
 }
-.third-section #fitness{
-    font-size: 20px;
+    .third-section #fitness{
+        font-size: 20px;
 }
-.third-section #exercise{
-    font-size: 20px;
+   .third-section #exercise{
+        font-size: 20px;
+} 
+    .fifth-section{
+        height: 46vh;
+        width: 102vw;
+    }
+    .fifth-section .fitness-tool{
+        padding-left: 40px;
+        padding-top: 15px;
+    }
+    .fifth-section h2{
+        padding-left: 350px;
+    }
 }
+@media (max-width:812px){
+    .forth-section .tea-blend img{
+        width: 200px;
+        height: 180px;
+    }
+    .bullet-point p{
+        margin-right: -40px;
+    }
+    .forth-section {
+        margin-left: -10px;
+    }
+    .fifth-section .fitness-tool{
+        padding-top: 20px;
+    }  
+    .fifth-section .fitness-tool img{
+        width:100px;
+    }
+    .footer{
+        width: 102vw;
+    }
 }
 /*-----------------------------SMALL SCREEN------------------------------------*/
 
 @media (max-width:768px){
     .third-section{
-        padding-left:  0px;
+        margin-left:  -60px;
     }
     .cover-img{
         margin-left: 30px;
@@ -494,7 +563,7 @@
         width: 30vw;
     }
     .navbar{
-        width: 100vw;
+        width:90vw;
         font-size: 15px;
     }
     .hamburger-menu{
@@ -506,6 +575,9 @@
     }
     .forth-section .tea-blend .para{
         margin: 0%;
+    }
+    .forth-section .img-gif{
+        margin-left: 40px;
     }
     .forth-section .img-gif img{
         height:67% ;
@@ -534,11 +606,36 @@
     .third-row .para{
         margin: 0%;
     }
+    .fifth-section{
+        width: 90vw;
+        height: 200vh;
+    }
+    .fifth-section h2{
+       font-size: 40px; 
+       padding-left: 250px;
+    }
+    .fifth-section .fitness-tool img{
+        width: 250px;
+        height: 230px;
+    }
+    .fifth-section .fitness-tool .card-title{
+        margin-top: 140px;
+        font-size: 20px;
+        height: 15vh;
+    }
+    .fifth-section .fitness-tool{
+        padding-top: 10px;
+        padding-left: 50px;
+    }
     .social-icon{
         margin: 60px 00px 0 10px;
     }
     .social-icon li{
         width: 4.4vw;
+    }
+    .footer{
+       
+       margin-left: -20px; width:93vw;
     }
     .copyright{
         margin-left: 0px;
@@ -559,6 +656,19 @@
     .third-section #exercise{
         font-size: 16px;
     }
+    .fifth-section{
+        height: 320vh;
+    }
+    .fifth-section h2{
+        padding-left: 200px;
+    }
+    .fifth-section .fitness-tool img{
+        width: 220px;
+        height: 220px;
+    }
+    .fifth-section .fitness-tool{
+        padding-left: 40px;
+    }
     .social-icon{
         margin: 50px 0 0 10px;
     }
@@ -578,6 +688,25 @@
 .third-section #fitness{
     font-size: 12px;
 }
+.fifth-section{
+    height: 370vh;
+}
+.fifth-section h2{
+    padding-left: 150px;
+}
+.fifth-section .fitness-tool{
+    padding-left: 110px;
+}
+.fifth-section .fitness-tool .card-title{
+    margin-top: 170px;
+}
+.fifth-section .fitness-tool img{
+    width: 260px;
+    height: 260px;
+}
+.footer{
+    width: 102vw;
+}
 .social-icon li{
     width: 6vw;
 }
@@ -591,9 +720,13 @@
 @media(max-width:450px) {
     .navbar{
         margin: 0;
-        width: 133vw;
+        width: 130vw;
     }
-    .third-section{
+    .fitness-tip .button{
+        margin-top: -20px;
+    }
+    .third-section .img-gif {
+        
     }
     .third-section .cover-img{
         margin-left: 20px;
@@ -620,28 +753,65 @@
     .third-section .fitness-tip .button{
         font-size: 13px;
     }
+    #hidden{
+        visibility: hidden;
+    }
+    .img-gif .button{
+        margin-top: -120px;
+    }
+    .forth-section .latest-exercise{
+        margin-top: 70px;
+    }
     .fifth-section{
         width: 129vw;
-        height: 1300px;
+        height: 380vh;
     }
     .fifth-section h2{
-        font-size: 30px;
-        margin-left: 165px;
+        font-size: 50px;
+        margin-left: -20px;
     }
-    .fitness-tool{
-        margin: 0px 0 0 -20px;
-        padding: 0px;
+    .fifth-section .fitness-tool{
+        padding:10px 0 0 130px;
     }
     .fifth-section .card img{
-        height: 200px;
-        width: 250px;
+        height: 260px;
+        width: 260px;
     }
     .fifth-section .card-title{
         margin-top: 136px;
         font-size: 20px;
     }
+    .footer{
+        width: 130vw;
+    }
     .social-icon li{
         width:10vw;
+    }
+}
+@media(max-width:370px){
+    .first-row .latest-exercise{
+        padding-top: 450px;
+    }
+    .fitness-tip{
+        height: 30vh;
+    }
+    .fitness-tip .button{
+        margin-top: -18px;
+    }
+    .fifth-section .fitness-tool{
+        margin-left: -40px;
+    }
+    #hidden{
+        visibility: hidden;
+    }
+    .img-gif .button{
+        margin-top: -150px;
+    }
+    .fifth-section h2{
+        padding-left: 100px;
+    }
+    .fifth-section{
+        width: 130vw;
     }
 }
 
