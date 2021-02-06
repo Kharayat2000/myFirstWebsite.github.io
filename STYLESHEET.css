@@ -776,17 +776,29 @@
 @media(max-width:450px) {
     .navbar{
         margin: 0;
-        width: 130vw;
+        width: 135vw;
+    }
+    .container{
+        margin: 0px 0 0 40px;
+        padding: 0px;
+        width: 100vw;
+    }
+    .third-section{
+        padding: 0 0px;
+        margin: 0 0 0 60px;
+    }
+    .third-section .cover-img{
+        height: 200px;
+        width: 400px;
     }
     .fitness-tip .button{
         margin-top: -20px;
     }
-    .third-section .img-gif {
-        
-    }
     .third-section .cover-img{
         margin-left: 20px;
         height: 250px;
+        width: 400px;
+        margin-right: -50px;
     }
     .third-section #exercise{
         font-size: 11px;
@@ -795,10 +807,9 @@
         font-size: 11px;
     }
     .third-section .fitness-tip{
-        margin-left: 10px;
-        padding: 0 50px;
-        height:200px;
-        width: 130vw;
+        padding: 0 40px;
+        height:180px;
+        width: 120px;
     }
     .third-section .fitness-tip h1{
         font-size: 25px;
@@ -819,7 +830,7 @@
         margin-top: 70px;
     }
     .fifth-section{
-        width: 129vw;
+        width: 130vw;
         height: 380vh;
     }
     .fifth-section h2{
@@ -845,17 +856,25 @@
     }
 }
 @media(max-width:370px){
+    .navbar{
+        width: 135vw;
+    }
+    .third-section{
+        margin-right: 30px;
+    }
     .first-row .latest-exercise{
         padding-top: 450px;
     }
-    .fitness-tip{
-        height: 30vh;
+    .third-section .fitness-tip{
+        height:230px;
     }
     .fitness-tip .button{
         margin-top: -18px;
     }
     .fifth-section .fitness-tool{
         margin-left: -40px;
+        margin-top: -80px;
+        padding-top: 0px;
     }
     #hidden{
         visibility: hidden;
@@ -867,7 +886,10 @@
         padding-left: 100px;
     }
     .fifth-section{
-        width: 130vw;
+        width: 136vw;
+    }
+    .footer{
+        width: 135vw;
     }
 }
 
