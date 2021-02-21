@@ -321,6 +321,11 @@ footer  .row-2 .copyright{
 .social-icon{
         margin-left: 10px;
 } } 
+@media (max-width:350px){
+    .fifth-section .card-title{
+     margin-top: 95px;
+    }
+}
 @media (max-width:340px){
     .fifth-section .card-title{
         margin-top: 98px;
