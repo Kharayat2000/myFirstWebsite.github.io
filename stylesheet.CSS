@@ -305,8 +305,8 @@ footer  .row-2 .copyright{
     }
 }
 @media (max-width:414px){
-    .fifth-section .card-title{
-        margin-top: 95px;
+    .fifth-section .card-title #bmr{
+        visiblity:hidden;
     }
 }
 @media (max-width:400px){
