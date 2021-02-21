@@ -358,6 +358,10 @@ footer  .row-2 .copyright{
         font-size: 10px;
         height:7vh;
 } } 
+@media (max-width:260px){
+    .fifth-section .card-title{
+      margin-top: 48px;
+}
 @media (max-width:250px){
     .fitness-tip{
         height: 50vh;
