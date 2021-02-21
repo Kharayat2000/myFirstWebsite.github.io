@@ -1,5 +1,4 @@
-i8
-\i]kk,.container{
+.container{
     justify-content: center;   
 }
 .navbar{
@@ -303,6 +302,11 @@ footer  .row-2 .copyright{
 }
     .social-icon{
         margin-left: 50px;
+    }
+}
+@media (max-width:414px){
+    .fifth-section .card-title{
+        margin-top: 95px;
     }
 }
 @media (max-width:400px){
