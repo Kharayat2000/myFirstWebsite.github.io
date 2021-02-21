@@ -304,11 +304,6 @@ footer  .row-2 .copyright{
         margin-left: 50px;
     }
 }
-@media (max-width:414px){
-    .fifth-section .card-title #bmr{
-        visibility:hidden;
-    }
-}
 @media (max-width:400px){
     .fifth-section .card-title{
         font-size: 17px;
