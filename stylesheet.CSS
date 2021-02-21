@@ -14,9 +14,11 @@
 #mynavbar .dropdown-item{
     color: #fff;
     background-color:#085eb9 ;
+     
 }
 .dropdown-menu{
     background-color:#085eb9 ;
+    width: 90vw;
 }
 .third-section{
     justify-content:center;
@@ -250,9 +252,11 @@ footer  .row-2 .copyright{
     .fifth-section .card-title{
         margin-top: 270px;}
     .social-icon{
-        margin-left: 110px;
-        
+        margin-left: 110px;        
     }    
+    .dropdown-menu{
+        width: 83vw;
+    }
 }
 @media (max-width:530px){
     .fifth-section .card-title{
@@ -312,17 +316,21 @@ footer  .row-2 .copyright{
 .social-icon{
         margin-left: 30px;
 } }
- @media (max-width:375px){
+ @media (max-width:370px){
     .fifth-section .card-title{
         font-size: 15px;
-        margin-top: 118px;
+        margin-top: 123px;
 }
+.dropdown-menu{
+    width: 80vw;
+}
+ }
 .social-icon{
         margin-left: 10px;
 } } 
 @media (max-width:350px){
     .fifth-section .card-title{
-     margin-top: 95px;
+        margin-top: 95px;
     }
 }
 @media (max-width:340px){
@@ -335,7 +343,7 @@ footer  .row-2 .copyright{
         margin-top: 96px;
         font-size: 12px;
 }
-.social-icon{
+    .social-icon{
     margin-left: -10px;
 } } 
 @media (max-width:300px){
@@ -351,9 +359,12 @@ footer  .row-2 .copyright{
         margin-top: 54px;
         font-size: 12px;
 } 
-.social-icon li{
+    .social-icon li{
         height: 35px;
         font-size: 15px;
+    }
+    .dropdown-menu{
+        width: 75vw;
     }
 } 
 @media (max-width:270px){
@@ -364,9 +375,15 @@ footer  .row-2 .copyright{
 } } 
 @media (max-width:260px){
     .fifth-section .card-title{
-      margin-top: 48px;
+        margin-top: 48px;
 }
 @media (max-width:250px){
+    .navbar li {
+        font-size: 15px;
+    }
+    .dropdown-item{
+        font-size: 13px;
+    }
     .fitness-tip{
         height: 50vh;
     }
@@ -379,8 +396,20 @@ footer  .row-2 .copyright{
         font-size: 9px;
 } } 
 @media (max-width:220px){
+    .navbar li {
+        font-size: 13px;
+    }
+    .navbar .dropdown-menu{
+        width: 40vw;
+    }
+    .dropdown-item{
+        font: 7px;
+    }
     .fitness-tip{
         height: 55vh;
+    }
+    .dropdown-menu{
+        width: 70vw;
     }
     .fifth-section .card-title{
         margin-top: 15px;
